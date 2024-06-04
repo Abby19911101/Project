@@ -20,7 +20,7 @@ MainScene::MainScene(QWidget *parent)
   setWindowIcon(QIcon(":/res/Coin0001.png"));
 
   //设置标题
-  setWindowTitle("翻金币主场景");
+  setWindowTitle(tr("翻金币主场景"));
 
   //退出按钮实现
   connect(ui->actionQuit, &QAction::triggered, [=]() { this->close(); });
